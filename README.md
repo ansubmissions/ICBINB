@@ -1,7 +1,7 @@
 # ICBINB Supplementary Material
 This repository contains the R code for the exploration of the deep Gaussian Mixture Models.
 
-## INSTALLING PACKAGE
+## Installing the package
 
 Download the package and run in a terminal:
 <tt>R CMD INSTALL deepMFA_1.0.tar.gz</tt>
