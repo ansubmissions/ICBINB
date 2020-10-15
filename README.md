@@ -8,6 +8,8 @@ Download the package and run in a terminal:
 
 # RUNNING THE EXPERIMENTS
 
+Create the folders results-script-3.2, results-script-3.3 and results-script-3.3.bis
+
 The script names contain the section name:
 * script-3.2.R runs the experiments of Section 3.2
 * script-3.3.R runs the first part of experiments of Section 3.3
