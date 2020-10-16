@@ -68,8 +68,10 @@ for(iteration in 1:20){
 
 # get BIC values over iterations DGMM
 
-idx <- which.min(bic.init.random)
-load(paste0("./results-script-3.3/deepMFA.res.init.random-",idx,".RData"))
-plot(deepMFA.res.init.random$bics, xlab="Iterations", ylab="BIC value")
+for(idx in 1:20){
+  load(paste0("./results-script-1-hard-2/deepMFA.res.init.random-",idx,".RData"))
+  plot(deepMFA.res.init.random$bics, xlab="Iterations", ylab="BIC value")
+  Sys.sleep(1.5)
+}
 
 
